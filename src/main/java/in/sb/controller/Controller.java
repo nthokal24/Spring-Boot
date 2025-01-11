@@ -22,4 +22,26 @@ public class Controller {
 	}
 	
 	
+	@GetMapping("/Last")
+	public String Last() {
+		
+		logger.info("Show Method Started");
+		logger.info("Show Method Test");
+		logger.info("Show Method Spring boot");
+		logger.info("Show Method Java");
+			return "Hello Nitin Thokal";
+	}
+	
+	
+	@GetMapping("/name")
+	public String name() {
+		
+		logger.info("Show Method Started");
+		logger.info("Show Method Test");
+		logger.info("Show Method Spring boot");
+		logger.info("Show Method Java");
+			return "Hello Nitin";
+	}
+	
+	
 }
